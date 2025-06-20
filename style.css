@@ -11,7 +11,7 @@ body {
     color: var(--dark-grey);
     background-image: url("C:/Users/adity/Desktop/tester html/img1.jpg"); /* Your image path */
     background-size: contain;
-  background: linear-gradient(to bottom,#4e240d 35%,#19877eed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: radial-gradient(circle ,#ffffffed,#71d4b6,#5cdccb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
  background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +43,11 @@ h1, h3, h4, h5, h6 {
 
 h2 {
    font-family: 'Montserrat', sans-serif; 
-   color: rgb(255, 255, 255);
+   color: rgb(7, 66, 67);
+}
+
+p {
+    color:rgb(7, 66, 67);
 }
 
 h1 { font-size: 3.5em; } /* Hero title */
@@ -130,6 +134,10 @@ a:hover {
     box-shadow:0 2px 5px rgba(255, 255, 255, 0.519); ;
 }
 
+.hero-content p{
+    color: #FFFFFF;
+}
+
 .hero-content h1 {
     font-size: 4em; /* Larger for impact */
     margin-bottom: 10px;
@@ -187,7 +195,7 @@ a:hover {
 }
 
 .upcoming-title h3{
-    color: #ffffff;
+    color:rgb(7, 66, 67);
     font-weight: 300;
 }
 
@@ -200,10 +208,10 @@ a:hover {
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
-    background-color: rgb(81, 44, 9); /* White content block for "About Us" */
+    background-color: rgba(255, 255, 255, 0.707); /* White content block for "About Us" */
     padding: 40px; /* Add padding to content block */
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.919);
+    box-shadow: 0 4px 15px rgba(8, 2, 75, 0.919);
 }
 
 .about-content {
@@ -249,8 +257,8 @@ a:hover {
     border-radius: 8px;
     justify-self: center;
     width: 900px;
-    background-color: #76c674;
-    box-shadow: #060303;
+    background-color: #ffffff;
+     box-shadow: 0 4px 10px #060303;
    
 }
 
@@ -261,17 +269,19 @@ a:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    
 }
 
 .impact-card {
     background-color: var(--off-white);
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 10px #060303;
     flex: 1;
     min-width: 250px;
     max-width: 300px;
     transition: transform 0.3s ease;
+     box-shadow: #060303;
 }
 
 .impact-card:hover {
@@ -321,10 +331,10 @@ a:hover {
 }
 
 .upcoming-events .container {
-    background-color:   rgba(8, 107, 85, 0.43); /* White content block for events */
+    background-color:   rgba(255, 255, 255, 0.43); /* White content block for events */
     padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.568);
+    box-shadow: 0 4px 15px rgba(8, 2, 75, 0.919);
 }
 
 .event-card {
