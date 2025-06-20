@@ -11,7 +11,7 @@ body {
     color: var(--dark-grey);
     background-image: url("C:/Users/adity/Desktop/tester html/img1.jpg"); /* Your image path */
     background-size: contain;
-  background: radial-gradient(circle ,#ffffffed,#71d4b6,#5cdccb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: radial-gradient(circle ,#ffffffed,#f0b188,#946a32); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
  background-position: center;
     background-repeat: no-repeat;
@@ -37,13 +37,13 @@ body {
 
 h1, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(4, 61, 26);
+    color: rgb(255, 255, 255);
     margin-bottom: 15px;
 }
 
 h2 {
    font-family: 'Montserrat', sans-serif; 
-   color: rgb(7, 66, 67);
+   color: rgb(4, 61, 26);
 }
 
 p {
@@ -195,7 +195,7 @@ a:hover {
 }
 
 .upcoming-title h3{
-    color:rgb(7, 66, 67);
+    color:rgb(4, 61, 26);
     font-weight: 300;
 }
 
